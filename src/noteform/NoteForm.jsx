@@ -33,7 +33,7 @@ class NoteForm extends Component {
 
     })
   }
-  
+
   handleUserInput1 = (val) => {
     console.log(val);
     this.setState({
@@ -71,7 +71,6 @@ class NoteForm extends Component {
               placeholder="title"
               type="text"
               name="title"
-              // value={this.state.titleContent}
               onChange={this.handleUserInput}
             />
 
